@@ -1,0 +1,6 @@
+deployment:
+  master:
+    branch: master
+    commands:
+      - cp mikro-cli $CIRCLE_ARTIFACTS/
+
